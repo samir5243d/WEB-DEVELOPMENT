@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS SPECIFICITY AND CASCADE</title>
+</head>
+
+</head>
+
+<style>
+    /* THE SPECIFICITY OF THIS SELECTOR IS 1 */
+    h1 {
+        color: aqua;
+    }
+
+    /* THE SPECIFICITY OF THIS SELECTOR IS 1 + 10 = 11 */
+
+    h1.yellow {
+        color: yellow;
+    }
+
+    /* THE SPECIFICITY OF THIS SELECTOR IS 10 */
+
+
+    .cred {
+        color: purple;
+    }
+
+    /*This is an example of atribute selector  */
+    /* THE SPECIFICITY OF THIS SELECTOR IS 10 */
+
+
+    [data-x=a] {
+        color: skyblue;
+    }
+</style>
+
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a"> Css Specificity</h1>
+    </div>
+</body>
+
+</html>
+
+<!-- The cascade alorithm is a set of rules that browsers use to determine
+which CSS styles to apply when multiple styles could apply to the same
+element. The rules are based on specificity, importance, and source order. -->
+
+Order of specificity: INLINE STYLE > ID SELECTOR > CLASS OR ATRIBUTE SELECTOR > ELEMENT SELECTOR
