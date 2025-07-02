@@ -27,6 +27,52 @@ nav{
   max-width: 80vw;
   margin: auto;
   height: 112px;
+  max-width: 80vw;
+ 
 
+  
+}
+nav img{
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+  
+}
+nav button{
+  position: relative;
+  z-index: 10;
+  
+  
+  
+
+}
+.hero{
+
+  font-family: 'Martel Sans', sans-serif;
+
+
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+.hero :nth-child(1){
+  font-weight: 900;
+  font-size: 48px;
+ 
+}
+.hero :nth-child(2){
+  font-weight: 500;
+  font-size: 24px;
+  
+}
+.hero :nth-child(3){
+  font-weight: 500;
+  font-size: 20px;
   
 }
