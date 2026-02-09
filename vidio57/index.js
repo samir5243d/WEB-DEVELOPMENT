@@ -15,7 +15,7 @@ console.log("THIS IS AN TUTORIAL ON LOOPS")
 
 
     
-// for (const key in obj) {
+// for (const key in obj) {  //   for in likhne ke baad apne aap aa jata hai
 //     if (Object.prototype.hasOwnProperty.call(obj, key)) {
 //         const element = obj[key];
 
@@ -32,11 +32,7 @@ console.log("THIS IS AN TUTORIAL ON LOOPS")
 //     console.log(i);
 //     i++;
 
-// }
+// let j=1;
 
-let i=0;
-do{
-    console.log(i);
-    i++;
 
-}while(i<6);
+

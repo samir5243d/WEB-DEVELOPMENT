@@ -17,3 +17,8 @@ console.log(a); // This will log the outer 'a' which is 5.
 
 const a1=6; 
 // a1=a1+1; // This will throw an error because 'a1' is a constant and cannot be reassigned.
+
+  
+
+
+
